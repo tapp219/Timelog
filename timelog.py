@@ -1,16 +1,16 @@
 from datetime import datetime
 import os
 
-choice = input(f"Open a file or create a new file (new/open):\n")
+choice = input("Open a file or create a new file (new/open):\n")
 while choice == '':
-    choice = input(f"Please input a valid choice (new/open)\n")
+    choice = input("Please input a valid choice (new/open)\n")
 if choice == 'new':
-    choosefile = input(f"Type a name for your file.\n")
+    choosefile = input("Type a name for your file.\n")
     file = f"{choosefile}.txt"
 elif choice == 'open':
-    file = input(f"Type file name:\n")
+    file = input("Type file name:\n")
     while os.path.isfile(file) == False and file.endswith('.txt') == False:
-        print(f"File not found, try again.")
+        print("File not found, try again.\n")
         file = input()
     
 
