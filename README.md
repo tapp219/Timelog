@@ -9,5 +9,7 @@ Simple Python script that logs a message along with the date and time.
 - [x] Add error handling for file creation if file already exists
 - [ ] Add comments
 - [ ] Add cancel/back options
+- [ ] Let user choose whether to name the file
+- [ ] Add config file
 - [ ] Check for more bugs
 - [ ] Optimize code
