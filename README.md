@@ -7,7 +7,7 @@ Simple Python script that logs a message along with the date and time.
 - [x] Add error handling for nonexistent files when opening a file
 - [ ] Let user choose which path to create the file
 - [x] Add error handling for file creation if file already exists
-- [ ] Add comments
+- [x] Add comments
 - [ ] Add cancel/back options
 - [ ] Let user choose whether to name the file
 - [ ] Automatically detect if user specifies a file type
